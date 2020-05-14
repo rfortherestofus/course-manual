@@ -1,0 +1,12 @@
+bookdown::gitbook:
+  css: css/style.css
+  split_by: chapter
+  config:
+    theme: null
+    fontsettings: null
+    download: null
+    sharing: null
+    toc:
+      collapse: section
+      before: |
+        <a href="./index.html"><img class="rru-logo" src="images/rru-logo.svg"></a>
