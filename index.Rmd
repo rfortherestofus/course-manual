@@ -87,6 +87,11 @@ And here's the video I reference in the above video showing the result.
 
 <iframe src="https://player.vimeo.com/video/441483009" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
+You can download the circle mask I use to make the video of you round [here](images/circle-mask.png).
+
+
+
+
 ## Recording Procedures
 
 I'm generally not that fussy about making sure everything is super high quality, but please use an external camera and external mic to record. Please put your mic as close to you as possible, but make sure it doesn't show up on camera. If you are interested in learning some tips about high-quality screencasting, [this guide from Egghead](https://howtoegghead.com/instructor/screencasting/) is helpful. 

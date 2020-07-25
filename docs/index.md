@@ -1,7 +1,7 @@
 ---
 title: "How to Make an R for the Rest of Us Online Course"
 author: "David Keyes"
-date: "Last Updated Friday, July 24, 2020 at 4:17 PM (PDT)"
+date: "Last Updated Saturday, July 25, 2020 at 9:22 AM (PDT)"
 ---
 
 
@@ -85,6 +85,11 @@ I record videos with my screen displaying and myself on video in the bottom righ
 And here's the video I reference in the above video showing the result.
 
 <iframe src="https://player.vimeo.com/video/441483009" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+You can download the circle mask I use to make the video of you round [here](images/circle-mask.png).
+
+
+
 
 ## Recording Procedures
 
