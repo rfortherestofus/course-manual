@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>How to Make an R for the Rest of Us Online Course</title>
   <meta name="description" content="How to Make an R for the Rest of Us Online Course" />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
   <meta property="og:title" content="How to Make an R for the Rest of Us Online Course" />
   <meta property="og:type" content="book" />
@@ -32,6 +32,7 @@
   
 
 <link rel="next" href="curriculum-development.html"/>
+<script src="libs/header-attrs-2.6.4/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -49,22 +50,20 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -84,7 +83,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -134,21 +133,26 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Overview</a></li>
 <li class="chapter" data-level="1" data-path="curriculum-development.html"><a href="curriculum-development.html"><i class="fa fa-check"></i><b>1</b> Curriculum Development</a></li>
-<li class="chapter" data-level="2" data-path="course-materials.html"><a href="course-materials.html"><i class="fa fa-check"></i><b>2</b> Course Materials</a><ul>
+<li class="chapter" data-level="2" data-path="course-materials.html"><a href="course-materials.html"><i class="fa fa-check"></i><b>2</b> Course Materials</a>
+<ul>
 <li class="chapter" data-level="2.1" data-path="course-materials.html"><a href="course-materials.html#github-repo"><i class="fa fa-check"></i><b>2.1</b> GitHub Repo</a></li>
 <li class="chapter" data-level="2.2" data-path="course-materials.html"><a href="course-materials.html#project-organization"><i class="fa fa-check"></i><b>2.2</b> Project Organization</a></li>
-<li class="chapter" data-level="2.3" data-path="course-materials.html"><a href="course-materials.html#slides"><i class="fa fa-check"></i><b>2.3</b> Slides</a><ul>
+<li class="chapter" data-level="2.3" data-path="course-materials.html"><a href="course-materials.html#slides"><i class="fa fa-check"></i><b>2.3</b> Slides</a>
+<ul>
 <li class="chapter" data-level="2.3.1" data-path="course-materials.html"><a href="course-materials.html#slides-template"><i class="fa fa-check"></i><b>2.3.1</b> Slides Template</a></li>
 <li class="chapter" data-level="2.3.2" data-path="course-materials.html"><a href="course-materials.html#slides-organization"><i class="fa fa-check"></i><b>2.3.2</b> Slides Organization</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="rstudio-setup.html"><a href="rstudio-setup.html"><i class="fa fa-check"></i><b>3</b> RStudio Setup</a><ul>
+<li class="chapter" data-level="3" data-path="rstudio-setup.html"><a href="rstudio-setup.html"><i class="fa fa-check"></i><b>3</b> RStudio Setup</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="rstudio-setup.html"><a href="rstudio-setup.html#defaults"><i class="fa fa-check"></i><b>3.1</b> Defaults</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="recording-videos.html"><a href="recording-videos.html"><i class="fa fa-check"></i><b>4</b> Recording Videos</a><ul>
-<li class="chapter" data-level="4.1" data-path="recording-videos.html"><a href="recording-videos.html#streamlabs-setup"><i class="fa fa-check"></i><b>4.1</b> Streamlabs Setup</a></li>
-<li class="chapter" data-level="4.2" data-path="recording-videos.html"><a href="recording-videos.html#recording-procedures"><i class="fa fa-check"></i><b>4.2</b> Recording Procedures</a></li>
-<li class="chapter" data-level="4.3" data-path="recording-videos.html"><a href="recording-videos.html#sharing-videos-with-david"><i class="fa fa-check"></i><b>4.3</b> Sharing Videos with David</a></li>
+<li class="chapter" data-level="4" data-path="code-style.html"><a href="code-style.html"><i class="fa fa-check"></i><b>4</b> Code Style</a></li>
+<li class="chapter" data-level="5" data-path="recording-videos.html"><a href="recording-videos.html"><i class="fa fa-check"></i><b>5</b> Recording Videos</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="recording-videos.html"><a href="recording-videos.html#streamlabs-setup"><i class="fa fa-check"></i><b>5.1</b> Streamlabs Setup</a></li>
+<li class="chapter" data-level="5.2" data-path="recording-videos.html"><a href="recording-videos.html#recording-procedures"><i class="fa fa-check"></i><b>5.2</b> Recording Procedures</a></li>
+<li class="chapter" data-level="5.3" data-path="recording-videos.html"><a href="recording-videos.html#sharing-videos-with-david"><i class="fa fa-check"></i><b>5.3</b> Sharing Videos with David</a></li>
 </ul></li>
 </ul>
 
@@ -170,11 +174,64 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="header">
 <h1 class="title">How to Make an R for the Rest of Us Online Course</h1>
 <p class="author"><em>David Keyes</em></p>
-<p class="date"><em>Last Updated Saturday, July 25, 2020 at 9:22 AM (PDT)</em></p>
+<p class="date"><em>Last Updated Monday, January 25, 2021 at 8:33 PM (PST)</em></p>
 </div>
 <div id="overview" class="section level1 unnumbered">
 <h1>Overview</h1>
-<p>These are instructions for making an R for the Rest of Us online course. More info will be added soon.</p>
+<p>These are instructions for making an R for the Rest of Us online course.
+The overall process from start to finish looks something like this:</p>
+<p>Intro Call</p>
+<ul>
+<li>Go over terms</li>
+<li>Discuss timing</li>
+<li>Share course-making manual</li>
+<li>Confirm instructor has access to external camera and mic</li>
+</ul>
+<p>Contract + advance</p>
+<ul>
+<li>David + instructor sign contract and</li>
+<li>David pays advance to instructor</li>
+</ul>
+<p>Set up Infrastructure</p>
+<ul>
+<li>David sets up shared Google Drive folder</li>
+<li>David creates Google Sheet for course outline</li>
+</ul>
+<p>Develop Outline</p>
+<ul>
+<li>Explain how lessons work (e.g. video, your turn, solutions, learn more)</li>
+</ul>
+<p>Develop slides</p>
+<ul>
+<li>David shares rruthemes package to be used</li>
+<li>Instructor develops slides</li>
+<li>David approves slides</li>
+</ul>
+<p>Record Videos</p>
+<ul>
+<li>Instructor records single test video</li>
+<li>David approves test video</li>
+<li>Instructor records remaining videos, including solutions</li>
+</ul>
+<p>Edit videos</p>
+<ul>
+<li>David’s video editor edits videos</li>
+</ul>
+<p>Put content on website</p>
+<ul>
+<li>Final approval from instructor</li>
+</ul>
+<p>Marketing for course launch</p>
+<ul>
+<li>David + instructor develop email sequence</li>
+<li>David + instructor plan out social media launch</li>
+</ul>
+<p>Add content to website</p>
+<ul>
+<li>Make landing page for course</li>
+<li>All material added to website</li>
+</ul>
+<p>Course launch!</p>
 </div>
             </section>
 

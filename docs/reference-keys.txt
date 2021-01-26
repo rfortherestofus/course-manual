@@ -1,0 +1,14 @@
+curriculum-development
+course-materials
+github-repo
+project-organization
+slides
+slides-template
+slides-organization
+rstudio-setup
+defaults
+code-style
+recording-videos
+streamlabs-setup
+recording-procedures
+sharing-videos-with-david

@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>4 Recording Videos | How to Make an R for the Rest of Us Online Course</title>
-  <meta name="description" content="4 Recording Videos | How to Make an R for the Rest of Us Online Course" />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <title>5 Recording Videos | How to Make an R for the Rest of Us Online Course</title>
+  <meta name="description" content="5 Recording Videos | How to Make an R for the Rest of Us Online Course" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="4 Recording Videos | How to Make an R for the Rest of Us Online Course" />
+  <meta property="og:title" content="5 Recording Videos | How to Make an R for the Rest of Us Online Course" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="4 Recording Videos | How to Make an R for the Rest of Us Online Course" />
+  <meta name="twitter:title" content="5 Recording Videos | How to Make an R for the Rest of Us Online Course" />
   
   
   
@@ -30,8 +30,9 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="rstudio-setup.html"/>
+<link rel="prev" href="code-style.html"/>
 
+<script src="libs/header-attrs-2.6.4/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -49,22 +50,20 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -84,7 +83,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -134,21 +133,26 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Overview</a></li>
 <li class="chapter" data-level="1" data-path="curriculum-development.html"><a href="curriculum-development.html"><i class="fa fa-check"></i><b>1</b> Curriculum Development</a></li>
-<li class="chapter" data-level="2" data-path="course-materials.html"><a href="course-materials.html"><i class="fa fa-check"></i><b>2</b> Course Materials</a><ul>
+<li class="chapter" data-level="2" data-path="course-materials.html"><a href="course-materials.html"><i class="fa fa-check"></i><b>2</b> Course Materials</a>
+<ul>
 <li class="chapter" data-level="2.1" data-path="course-materials.html"><a href="course-materials.html#github-repo"><i class="fa fa-check"></i><b>2.1</b> GitHub Repo</a></li>
 <li class="chapter" data-level="2.2" data-path="course-materials.html"><a href="course-materials.html#project-organization"><i class="fa fa-check"></i><b>2.2</b> Project Organization</a></li>
-<li class="chapter" data-level="2.3" data-path="course-materials.html"><a href="course-materials.html#slides"><i class="fa fa-check"></i><b>2.3</b> Slides</a><ul>
+<li class="chapter" data-level="2.3" data-path="course-materials.html"><a href="course-materials.html#slides"><i class="fa fa-check"></i><b>2.3</b> Slides</a>
+<ul>
 <li class="chapter" data-level="2.3.1" data-path="course-materials.html"><a href="course-materials.html#slides-template"><i class="fa fa-check"></i><b>2.3.1</b> Slides Template</a></li>
 <li class="chapter" data-level="2.3.2" data-path="course-materials.html"><a href="course-materials.html#slides-organization"><i class="fa fa-check"></i><b>2.3.2</b> Slides Organization</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="rstudio-setup.html"><a href="rstudio-setup.html"><i class="fa fa-check"></i><b>3</b> RStudio Setup</a><ul>
+<li class="chapter" data-level="3" data-path="rstudio-setup.html"><a href="rstudio-setup.html"><i class="fa fa-check"></i><b>3</b> RStudio Setup</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="rstudio-setup.html"><a href="rstudio-setup.html#defaults"><i class="fa fa-check"></i><b>3.1</b> Defaults</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="recording-videos.html"><a href="recording-videos.html"><i class="fa fa-check"></i><b>4</b> Recording Videos</a><ul>
-<li class="chapter" data-level="4.1" data-path="recording-videos.html"><a href="recording-videos.html#streamlabs-setup"><i class="fa fa-check"></i><b>4.1</b> Streamlabs Setup</a></li>
-<li class="chapter" data-level="4.2" data-path="recording-videos.html"><a href="recording-videos.html#recording-procedures"><i class="fa fa-check"></i><b>4.2</b> Recording Procedures</a></li>
-<li class="chapter" data-level="4.3" data-path="recording-videos.html"><a href="recording-videos.html#sharing-videos-with-david"><i class="fa fa-check"></i><b>4.3</b> Sharing Videos with David</a></li>
+<li class="chapter" data-level="4" data-path="code-style.html"><a href="code-style.html"><i class="fa fa-check"></i><b>4</b> Code Style</a></li>
+<li class="chapter" data-level="5" data-path="recording-videos.html"><a href="recording-videos.html"><i class="fa fa-check"></i><b>5</b> Recording Videos</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="recording-videos.html"><a href="recording-videos.html#streamlabs-setup"><i class="fa fa-check"></i><b>5.1</b> Streamlabs Setup</a></li>
+<li class="chapter" data-level="5.2" data-path="recording-videos.html"><a href="recording-videos.html#recording-procedures"><i class="fa fa-check"></i><b>5.2</b> Recording Procedures</a></li>
+<li class="chapter" data-level="5.3" data-path="recording-videos.html"><a href="recording-videos.html#sharing-videos-with-david"><i class="fa fa-check"></i><b>5.3</b> Sharing Videos with David</a></li>
 </ul></li>
 </ul>
 
@@ -167,28 +171,46 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="recording-videos" class="section level1">
-<h1><span class="header-section-number">4</span> Recording Videos</h1>
-<div id="streamlabs-setup" class="section level2">
-<h2><span class="header-section-number">4.1</span> Streamlabs Setup</h2>
-<p>I use the free <a href="https://streamlabs.com/">Streamlabs</a> to record videos. It’s designed for streaming online, but you can also use it to record locally.</p>
+<div id="recording-videos" class="section level1" number="5">
+<h1><span class="header-section-number">5</span> Recording Videos</h1>
+<div id="streamlabs-setup" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Streamlabs Setup</h2>
+<p>I use the free <a href="https://streamlabs.com/">Streamlabs</a> to record videos.
+It’s designed for streaming online, but you can also use it to record
+locally.</p>
 <p>I use all of the default settings for audio and video.</p>
-<p>I record videos with my screen displaying and myself on video in the bottom right. I think it’s important that the instructor be on video to build rapport with students. I made a video to show I set this up in Streamlabs.</p>
+<p>I record videos with my screen displaying and myself on video in the
+bottom right. I think it’s important that the instructor be on video to
+build rapport with students. I made a video to show I set this up in
+Streamlabs.</p>
 <iframe src="https://player.vimeo.com/video/441483074" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
 </iframe>
 <p>And here’s the video I reference in the above video showing the result.</p>
 <iframe src="https://player.vimeo.com/video/441483009" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
 </iframe>
-<p>You can download the circle mask I use to make the video of you round <a href="images/circle-mask.png">here</a>.</p>
+<p>You can download the circle mask I use to make the video of you round
+<a href="images/circle-mask.png">here</a>.</p>
 </div>
-<div id="recording-procedures" class="section level2">
-<h2><span class="header-section-number">4.2</span> Recording Procedures</h2>
-<p>I’m generally not that fussy about making sure everything is super high quality, but please use an external camera and external mic to record. Please put your mic as close to you as possible, but make sure it doesn’t show up on camera. If you are interested in learning some tips about high-quality screencasting, <a href="https://howtoegghead.com/instructor/screencasting/">this guide from Egghead</a> is helpful.</p>
-<p>My general experience is that it’s easier to record videos by just hitting record and going through your lesson as many times as you need to. I often make mistakes along the way, but that’s ok because we can edit them out after the fact. Just go back to right before you messed up and start again! You can, of course, record so you get a single high-quality take, but I find that hard to do and way too much pressure.</p>
+<div id="recording-procedures" class="section level2" number="5.2">
+<h2><span class="header-section-number">5.2</span> Recording Procedures</h2>
+<p>I’m generally not that fussy about making sure everything is super high
+quality, but please use an external camera and external mic to record.
+Please put your mic as close to you as possible, but make sure it
+doesn’t show up on camera. If you are interested in learning some tips
+about high-quality screencasting, <a href="https://howtoegghead.com/instructor/screencasting/">this guide from
+Egghead</a> is helpful.</p>
+<p>My general experience is that it’s easier to record videos by just
+hitting record and going through your lesson as many times as you need
+to. I often make mistakes along the way, but that’s ok because we can
+edit them out after the fact. Just go back to right before you messed up
+and start again! You can, of course, record so you get a single
+high-quality take, but I find that hard to do and way too much pressure.</p>
 </div>
-<div id="sharing-videos-with-david" class="section level2">
-<h2><span class="header-section-number">4.3</span> Sharing Videos with David</h2>
-<p>Please share the raw videos you record in the Google Drive folder that David sets up for you. Make sure they are labelled so I know what each video is.</p>
+<div id="sharing-videos-with-david" class="section level2" number="5.3">
+<h2><span class="header-section-number">5.3</span> Sharing Videos with David</h2>
+<p>Please share the raw videos you record in the Google Drive folder that
+David sets up for you. Make sure they are labelled so I know what each
+video is.</p>
 
 </div>
 </div>
@@ -197,7 +219,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="rstudio-setup.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="code-style.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
     </div>
   </div>
