@@ -4,6 +4,7 @@ ownership
 exclusivity
 agreement-expiration
 curriculum-development
+lesson-content
 course-materials
 github-repo
 project-organization
@@ -17,3 +18,4 @@ recording-videos
 streamlabs-setup
 recording-procedures
 sharing-videos-with-david
+video-editing

@@ -1,7 +1,7 @@
 ---
 title: "How to Make an R for the Rest of Us Online Course"
 author: "David Keyes"
-date: "Last Updated Monday, February 22, 2021 at 4:37 PM (PST)"
+date: "Last Updated Monday, February 22, 2021 at 4:50 PM (PST)"
 editor_options: 
   markdown: 
     wrap: 72
@@ -118,18 +118,14 @@ lays out the concept. I'll often have code on this slide.
 
 ![](images/slide-example.png) I'll usually then flip over to RStudio to
 show myself typing out the code to demonstrate this concept in an
-exercises file. Here's an example:
+exercises file. 
 
-<iframe src="https://player.vimeo.com/video/418140740" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
+You can see an example of a whole lesson, complete with all parts [here](https://rfortherestofus.com/lessons/group_by/). 
 
-</iframe>
+## Lesson Content
 
-In my Fundamentals of R course, I had a [series of exercises laid out in
-an RMarkdown
-file](https://github.com/rfortherestofus/fundamentals/blob/master/data-visualization-exercises.Rmd).
-I use the markdown text to give instructions and then have blank code
-chunks where people put their solutions. See an example
-[here](https://github.com/rfortherestofus/fundamentals/blob/master/data-visualization-exercises.Rmd#L33:L35).
+I usually use a Google Sheet to help collaborate with the instructor on course materials. [Here's a sample of what the Google Sheet includes](https://docs.google.com/spreadsheets/d/145ucNRSx1FBUv8I-L6cFS3fHWFH1wZ3jOtpxvWSUn5c/edit?usp=sharing). The Google Sheet has places for thinking about lesson content, data, exercises, solutions, and learn more resources. 
+
 
 # Course Materials
 
@@ -188,7 +184,7 @@ example, can be confusing for newbies.
 
 # Code Style
 
-TODO. Talk about using `styler` package if helpful.
+Please follow the [tidyverse style guide](https://style.tidyverse.org/) as closely as possible. The most important thing is to have code that is easy to read for new learners. You're welcome to use the [`styler` package](https://styler.r-lib.org/) to format your code.
 
 # Recording Videos
 
@@ -237,5 +233,9 @@ high-quality take, but I find that hard to do and way too much pressure.
 ## Sharing Videos with David
 
 Please share the raw videos you record in the Google Drive folder that
-David sets up for you. Make sure they are labelled so I know what each
+David sets up for you. Make sure they are labeled so I know what each
 video is.
+
+# Video Editing
+
+David has a video editor who will edit all of your videos. 
