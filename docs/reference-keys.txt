@@ -1,3 +1,8 @@
+legal-and-financial
+compensation
+ownership
+exclusivity
+agreement-expiration
 curriculum-development
 course-materials
 github-repo

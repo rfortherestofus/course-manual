@@ -1,7 +1,7 @@
 ---
 title: "How to Make an R for the Rest of Us Online Course"
 author: "David Keyes"
-date: "Last Updated Monday, January 25, 2021 at 8:33 PM (PST)"
+date: "Last Updated Monday, February 22, 2021 at 4:37 PM (PST)"
 editor_options: 
   markdown: 
     wrap: 72
@@ -21,7 +21,7 @@ Intro Call
 - Share course-making manual 
 - Confirm instructor has access to external camera and mic
 
-Contract + advance
+Contract + Advance
 
 - David + instructor sign contract and 
 - David pays advance to instructor
@@ -66,6 +66,35 @@ Add content to website
 - All material added to website
 
 Course launch!
+
+
+# Legal and Financial
+
+Here are the legal and financial terms that I typically use when working with course instructors. I'm flexible and happy to work with you to come up with a solution that meets both of our needs. 
+
+## Compensation
+
+I pay an advance to the course creator of between $500, half on signing the contract to work together, and the other half when all videos for the course are recorded and uploaded to Google Drive.  
+
+Revenue for the courses is split 60/40 (60% for R for the Rest of Us, 40% for the course creator). I pay any royalties owed to the course creator on a quarterly basis. 
+
+## Ownership
+
+All videos are owned by R for the Rest of Us. 
+
+All non-video materials will be made freely available on the R for the Rest of Us organization GitHub using a CC-BY-SA-4.0 License.
+
+## Exclusivity
+
+The instructor agrees not to create a course that covers the same topic on another online platform for at least 12 months from the release of this course. 
+
+## Agreement Expiration
+
+These terms remain in effect for one year after the course is released. After that, David and the instructor will discuss any possible changes to the terms.
+
+
+
+
 
 # Curriculum Development
 
