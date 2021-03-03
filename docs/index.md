@@ -1,7 +1,7 @@
 ---
 title: "How to Make an R for the Rest of Us Online Course"
 author: "David Keyes"
-date: "Last Updated Monday, February 22, 2021 at 4:50 PM (PST)"
+date: "Last Updated Wednesday, March 3, 2021 at 2:33 PM (PST)"
 editor_options: 
   markdown: 
     wrap: 72
@@ -74,7 +74,7 @@ Here are the legal and financial terms that I typically use when working with co
 
 ## Compensation
 
-I pay an advance to the course creator of between $500, half on signing the contract to work together, and the other half when all videos for the course are recorded and uploaded to Google Drive.  
+I pay an advance to the course creator of $500, half on signing the contract to work together, and the other half when all videos for the course are recorded and uploaded to Google Drive.  
 
 Revenue for the courses is split 60/40 (60% for R for the Rest of Us, 40% for the course creator). I pay any royalties owed to the course creator on a quarterly basis. 
 
